@@ -4,6 +4,7 @@ html {
   margin: 0;
   border: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .imagenes {
@@ -22,19 +23,27 @@ html {
   height: 90vh;
   flex: 0.5;
   border-radius: 50px;
-  margin: 10px;
+  margin: 5px;
   position: relative;
   transition: flex 0.6s ease;
 
 }
 h3{
 
-  margin-top: auto;
-  margin-bottom: 0;
+position: absolute;
+bottom: 20px;
+left: 20px;
+color: white;
+font-size: 30px;
+opacity: 0;
 }
 
 .active {
   flex: 6;
+}
+.active h3{
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s ;
 }
 
 .container1 {
@@ -56,4 +65,24 @@ h3{
 
 .container5 {
   background-image: url('../recursos/fondo5.jpg');
+}
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: end;
+  
+  flex-direction: column;
+  width: 100%;
+  align-items: end;
+  font-size: 17px;
+  
+}
+a{
+  text-decoration: none;
+  color: white
+}
+.contacto{
+  margin: 10px;
+  margin-right: 30px;
 }
