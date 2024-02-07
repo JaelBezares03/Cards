@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.imagenes {
+  display: flex;
+  width: 90vw;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fondo {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  flex: 0.5;
+  border-radius: 50px;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.6s ease;
+
+}
+h3{
+
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.active {
+  flex: 6;
+}
+
+.container1 {
+  background-image: url('../recursos/fondo1.jpg');
+
+}
+
+.container2 {
+  background-image: url('../recursos/fondo2.jpg');
+}
+
+.container3 {
+  background-image: url('../recursos/fondo3.jpg');
+}
+
+.container4 {
+  background-image: url('../recursos/fondo4.jpg');
+}
+
+.container5 {
+  background-image: url('../recursos/fondo5.jpg');
+}
